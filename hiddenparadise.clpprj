@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\xampp\htdocs\hiddenparadise\hiddenparadise.clpprj">
 	<settings><PM_URL><![CDATA[C:/xampp/htdocs/hiddenparadise/]]></PM_URL><PM_HOME_URL><![CDATA[C:/xampp/htdocs/hiddenparadise/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\xampp\htdocs\hiddenparadise\styles\hiddencustom.css"/>
+		<file name="C:\xampp\htdocs\hiddenparadise\application\views\hidden_default.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 		<errfile name="C:\xampp\htdocs\hiddenparadise\styles\settings.css">
@@ -125,8 +127,8 @@
 			<error val="113847;4;113866;4;2502;1;"/>
 		</errfile>
 		<errfile name="C:\xampp\htdocs\hiddenparadise\application\views\hidden_default.php">
-			<error val="131;29;154;29;2002;1;"/>
-			<error val="109;29;131;29;2002;1;"/>
+			<error val="125;35;148;35;2002;1;"/>
+			<error val="103;35;125;35;2002;1;"/>
 		</errfile>
 	</errors>
 	<codestructure version="5.0">
@@ -252,7 +254,7 @@
 					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Cache\Cache.php;f29;100;36;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="cache_info;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Cache\Cache.php;f8;235;2;238;;;;vpos;;vmixed;;r&#xA;Description&#xA;     Cache Info&#xA;&#xA;Parameters:&#xA;    string $type - = 'user'	user/filehits&#xA;&#xA;Return:&#xA;   array containing cache info on success OR FALSE on failure;;d1,236;;b1,0;;mstring $type;;p">
+				<treenode node="cache_info;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Cache\Cache.php;f8;235;2;238;;;;vpos;;vmixed;;r&#xA;Description&#xA;     Cache Info&#xA;&#xA;Parameters:&#xA;    string $type - = 'user' user/filehits&#xA;&#xA;Return:&#xA;   array containing cache info on success OR FALSE on failure;;d1,236;;b1,0;;mstring $type;;p">
 					<treenode node="type;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Cache\Cache.php;f28;235;33;235;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -728,7 +730,7 @@
 					<treenode node="uri;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Config.php;f26;289;30;289;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="item;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Config.php;f8;189;2;197;;;;vpos;;vstring;;r&#xA;Description&#xA;     Fetch a config file item&#xA;&#xA;Parameters:&#xA;    string $item - Config item name&#xA;    string $index - Index name&#xA;&#xA;Return:&#xA;   |null	The configuration item or NULL if the item doesn't exist;;d1,190;;b1,0;;mstring $item;;pstring $index;;p">
+				<treenode node="item;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Config.php;f8;189;2;197;;;;vpos;;vstring;;r&#xA;Description&#xA;     Fetch a config file item&#xA;&#xA;Parameters:&#xA;    string $item - Config item name&#xA;    string $index - Index name&#xA;&#xA;Return:&#xA;   |null The configuration item or NULL if the item doesn't exist;;d1,190;;b1,0;;mstring $item;;pstring $index;;p">
 					<treenode node="index;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Config.php;f29;189;35;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="item;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Config.php;f22;189;27;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -754,7 +756,7 @@
 					<treenode node="uri;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Config.php;f26;234;30;234;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="slash_item;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Config.php;f8;207;2;219;;;;vpos;;vstring;;r&#xA;Description&#xA;     Fetch a config file item with slash appended (if not empty)&#xA;&#xA;Parameters:&#xA;    string $item - Config item name&#xA;&#xA;Return:&#xA;   |null	The configuration item or NULL if the item doesn't exist;;d1,208;;b1,0;;mstring $item;;p">
+				<treenode node="slash_item;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Config.php;f8;207;2;219;;;;vpos;;vstring;;r&#xA;Description&#xA;     Fetch a config file item with slash appended (if not empty)&#xA;&#xA;Parameters:&#xA;    string $item - Config item name&#xA;&#xA;Return:&#xA;   |null The configuration item or NULL if the item doesn't exist;;d1,208;;b1,0;;mstring $item;;p">
 					<treenode node="item;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Config.php;f28;207;33;207;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -1090,7 +1092,7 @@
 					<treenode node="protect_identifiers;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_driver.php;f68;1728;88;1728;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="query;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_driver.php;f8;595;2;730;;;;vpos;;vmixed;;r&#xA;Description&#xA;     Execute the query&#xA;&#xA;Parameters:&#xA;    string $sql&#xA;    array $binds - = FALSE		An array of binding data&#xA;    bool $return_object - = NULL;;d1,596;;b1,0;;mstring $sql;;parray $binds;;pbool $return_object;;p">
+				<treenode node="query;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_driver.php;f8;595;2;730;;;;vpos;;vmixed;;r&#xA;Description&#xA;     Execute the query&#xA;&#xA;Parameters:&#xA;    string $sql&#xA;    array $binds - = FALSE  An array of binding data&#xA;    bool $return_object - = NULL;;d1,596;;b1,0;;mstring $sql;;parray $binds;;pbool $return_object;;p">
 					<treenode node="binds;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_driver.php;f29;595;35;595;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="return_object;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_driver.php;f45;595;59;595;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -1216,7 +1218,7 @@
 				</treenode>
 			</treenode>
 			<treenode node="CI_DB_forge;PHP:Class Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_forge.php;f9;46;1;1034;;;;vpos;;v;;r&#xA;Description&#xA;     Database Forge Class;;d27,46;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_forge.php;f8;166;2;170;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db	Database object;;d1,167;;b1,0;;mobject;;p">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_forge.php;f8;166;2;170;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db Database object;;d1,167;;b1,0;;mobject;;p">
 					<treenode node="db;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_forge.php;f30;166;33;166;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -2960,7 +2962,7 @@
 				</treenode>
 			</treenode>
 			<treenode node="CI_DB_pdo_pgsql_forge;PHP:Class Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php;f0;46;1;209;;;;vpos;;vCI_DB_pdo_forge;;c;;r&#xA;Description&#xA;     PDO PostgreSQL Forge Class;;d52,46;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php;f8;87;2;95;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db	Database object;;d1,88;;b1,0;;mobject;;p">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php;f8;87;2;95;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db Database object;;d1,88;;b1,0;;mobject;;p">
 					<treenode node="db;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php;f30;87;33;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -3042,7 +3044,7 @@
 				</treenode>
 			</treenode>
 			<treenode node="CI_DB_pdo_sqlite_forge;PHP:Class Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php;f0;46;1;236;;;;vpos;;vCI_DB_pdo_forge;;c;;r&#xA;Description&#xA;     PDO SQLite Forge Class;;d53,46;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php;f8;84;2;92;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db	Database object;;d1,85;;b1,0;;mobject;;p">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php;f8;84;2;92;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db Database object;;d1,85;;b1,0;;mobject;;p">
 					<treenode node="db;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php;f30;84;33;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -3266,7 +3268,7 @@
 				</treenode>
 			</treenode>
 			<treenode node="CI_DB_postgre_forge;PHP:Class Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\postgre\postgre_forge.php;f0;48;1;204;;;;vpos;;vCI_DB_forge;;c;;r&#xA;Description&#xA;     Postgre Forge Class;;d46,48;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\postgre\postgre_forge.php;f8;82;2;90;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db	Database object;;d1,83;;b1,0;;mobject;;p">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\postgre\postgre_forge.php;f8;82;2;90;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db Database object;;d1,83;;b1,0;;mobject;;p">
 					<treenode node="db;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\postgre\postgre_forge.php;f30;82;33;82;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -4144,7 +4146,7 @@
 				</treenode>
 			</treenode>
 			<treenode node="CI_DB_sqlite3_forge;PHP:Class Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\sqlite3\sqlite3_forge.php;f0;46;1;223;;;;vpos;;vCI_DB_forge;;c;;r&#xA;Description&#xA;     SQLite3 Forge Class;;d46,46;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\sqlite3\sqlite3_forge.php;f8;70;2;78;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db	Database object;;d1,71;;b1,0;;mobject;;p">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\sqlite3\sqlite3_forge.php;f8;70;2;78;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db Database object;;d1,71;;b1,0;;mobject;;p">
 					<treenode node="db;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\database\drivers\sqlite3\sqlite3_forge.php;f30;70;33;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -4352,7 +4354,7 @@
 				</treenode>
 			</treenode>
 			<treenode node="CI_DB_utility;PHP:Class Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_utility.php;f9;46;1;422;;;;vpos;;v;;r&#xA;Description&#xA;     Database Utility Class;;d29,46;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_utility.php;f8;86;2;90;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db	Database object;;d1,87;;b1,0;;mobject;;p">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_utility.php;f8;86;2;90;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    object - &amp;$db Database object;;d1,87;;b1,0;;mobject;;p">
 					<treenode node="db;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\database\DB_utility.php;f30;86;33;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -4566,7 +4568,7 @@
 					<treenode node="clear_attachments;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Email.php;f23;482;41;482;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="from;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Email.php;f8;516;2;553;;;;vpos;;vCI_Email;;r&#xA;Description&#xA;     Set FROM&#xA;&#xA;Parameters:&#xA;    string $from&#xA;    string $name&#xA;    string $return_path - = NULL	Return-Path;;d1,517;;b1,0;;mstring $from;;pstring $name;;pstring $return_path;;p">
+				<treenode node="from;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Email.php;f8;516;2;553;;;;vpos;;vCI_Email;;r&#xA;Description&#xA;     Set FROM&#xA;&#xA;Parameters:&#xA;    string $from&#xA;    string $name&#xA;    string $return_path - = NULL Return-Path;;d1,517;;b1,0;;mstring $from;;pstring $name;;pstring $return_path;;p">
 					<treenode node="from;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Email.php;f22;516;27;516;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="name;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Email.php;f29;516;34;516;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -5630,7 +5632,7 @@
 					<treenode node="str;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f38;724;42;724;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="_fetch_from_array;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f11;170;2;222;;;;vpos;;vmixed;;r&#xA;Description&#xA;     Fetch from array&#xA;&#xA;Parameters:&#xA;    array - &amp;$array		$_GET, $_POST, $_COOKIE, $_SERVER, etc&#xA;    mixed $index - Index for item to be fetched from $array&#xA;    bool $xss_clean - Whether to apply XSS filtering;;d1,171;;b2,0;;marray;;pmixed $index;;pbool $xss_clean;;p">
+				<treenode node="_fetch_from_array;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f11;170;2;222;;;;vpos;;vmixed;;r&#xA;Description&#xA;     Fetch from array&#xA;&#xA;Parameters:&#xA;    array - &amp;$array  $_GET, $_POST, $_COOKIE, $_SERVER, etc&#xA;    mixed $index - Index for item to be fetched from $array&#xA;    bool $xss_clean - Whether to apply XSS filtering;;d1,171;;b2,0;;marray;;pmixed $index;;pbool $xss_clean;;p">
 					<treenode node="array;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f39;170;45;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="index;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f47;170;53;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -5658,7 +5660,7 @@
 					<treenode node="xss_clean;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f34;277;44;277;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="get_request_header;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f8;799;2;814;;;;vpos;;vstring;;r&#xA;Description&#xA;     Get Request Header&#xA;&#xA;Parameters:&#xA;    string $index - Header name&#xA;    bool $xss_clean - Whether to apply XSS filtering&#xA;&#xA;Return:&#xA;   |null	The requested header on success or NULL on failure;;d1,800;;b1,0;;mstring $index;;pbool $xss_clean;;p">
+				<treenode node="get_request_header;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f8;799;2;814;;;;vpos;;vstring;;r&#xA;Description&#xA;     Get Request Header&#xA;&#xA;Parameters:&#xA;    string $index - Header name&#xA;    bool $xss_clean - Whether to apply XSS filtering&#xA;&#xA;Return:&#xA;   |null The requested header on success or NULL on failure;;d1,800;;b1,0;;mstring $index;;pbool $xss_clean;;p">
 					<treenode node="index;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f36;799;42;799;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="xss_clean;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f44;799;54;799;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -5720,7 +5722,7 @@
 					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f35;355;41;355;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="user_agent;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f8;577;2;580;;;;vpos;;vstring;;r&#xA;Description&#xA;     Fetch User Agent string&#xA;&#xA;Return:&#xA;   |null	User Agent string or NULL if it doesn't exist;;d1,578;;b1,0;;mxss_clean;;p">
+				<treenode node="user_agent;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f8;577;2;580;;;;vpos;;vstring;;r&#xA;Description&#xA;     Fetch User Agent string&#xA;&#xA;Return:&#xA;   |null User Agent string or NULL if it doesn't exist;;d1,578;;b1,0;;mxss_clean;;p">
 					<treenode node="xss_clean;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Input.php;f28;577;38;577;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -6332,7 +6334,7 @@
 					<treenode node="log_errors;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Lang.php;f29;189;40;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="load;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Lang.php;f8;87;2;176;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Load a language file&#xA;&#xA;Parameters:&#xA;    mixed $langfile - Language file name&#xA;    string $idiom - Language name (english, etc&#xA;    bool $return - Whether to return the loaded array of translations&#xA;    bool $add_suffix - Whether to add suffix to $langfile&#xA;    string $alt_path - Alternative path to look for the language file&#xA;&#xA;Return:&#xA;   |string[]	Array containing translations, if $return is set to TRUE;;d1,88;;b1,0;;mmixed $langfile;;pstring $idiom;;pbool $return;;pbool $add_suffix;;pstring $alt_path;;p">
+				<treenode node="load;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Lang.php;f8;87;2;176;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Load a language file&#xA;&#xA;Parameters:&#xA;    mixed $langfile - Language file name&#xA;    string $idiom - Language name (english, etc&#xA;    bool $return - Whether to return the loaded array of translations&#xA;    bool $add_suffix - Whether to add suffix to $langfile&#xA;    string $alt_path - Alternative path to look for the language file&#xA;&#xA;Return:&#xA;   |string[] Array containing translations, if $return is set to TRUE;;d1,88;;b1,0;;mmixed $langfile;;pstring $idiom;;pbool $return;;pbool $add_suffix;;pstring $alt_path;;p">
 					<treenode node="add_suffix;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Lang.php;f63;87;74;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="alt_path;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Lang.php;f83;87;92;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -6416,7 +6418,7 @@
 					<treenode node="use_sections;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f31;653;44;653;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="database;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f8;325;2;350;;;;vpos;;vobject;;r&#xA;Description&#xA;     Database Loader&#xA;&#xA;Parameters:&#xA;    mixed $params - Database configuration options&#xA;    bool $return - Whether to return the database object&#xA;    bool $query_builder - Whether to enable Query Builder&#xA;&#xA;Return:&#xA;   |bool	Database object if $return is set to TRUE,;;d1,326;;b1,0;;mmixed $params;;pbool $return;;pbool $query_builder;;p">
+				<treenode node="database;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f8;325;2;350;;;;vpos;;vobject;;r&#xA;Description&#xA;     Database Loader&#xA;&#xA;Parameters:&#xA;    mixed $params - Database configuration options&#xA;    bool $return - Whether to return the database object&#xA;    bool $query_builder - Whether to enable Query Builder&#xA;&#xA;Return:&#xA;   |bool Database object if $return is set to TRUE,;;d1,326;;b1,0;;mmixed $params;;pbool $return;;pbool $query_builder;;p">
 					<treenode node="params;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f26;325;33;325;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="query_builder;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f57;325;71;325;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -6436,7 +6438,7 @@
 					<treenode node="return;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f36;361;43;361;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="driver;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f8;672;2;702;;;;vpos;;vobject;;r&#xA;Description&#xA;     Driver Loader&#xA;&#xA;Parameters:&#xA;    string|string[] $library - Driver name(s)&#xA;    array $params - Optional parameters to pass to the driver&#xA;    string $object_name - An optional object name to assign to&#xA;&#xA;Return:&#xA;   |bool	Object or FALSE on failure if $library is a string;;d1,673;;b1,0;;mstring|string[] $library;;parray $params;;pstring $object_name;;p">
+				<treenode node="driver;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f8;672;2;702;;;;vpos;;vobject;;r&#xA;Description&#xA;     Driver Loader&#xA;&#xA;Parameters:&#xA;    string|string[] $library - Driver name(s)&#xA;    array $params - Optional parameters to pass to the driver&#xA;    string $object_name - An optional object name to assign to&#xA;&#xA;Return:&#xA;   |bool Object or FALSE on failure if $library is a string;;d1,673;;b1,0;;mstring|string[] $library;;parray $params;;pstring $object_name;;p">
 					<treenode node="library;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f24;672;32;672;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="object_name;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f50;672;62;672;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -6470,7 +6472,7 @@
 				</treenode>
 				<treenode node="initialize;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f8;154;2;157;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Initializer;;d1,155;;b1,0;;m">
 				</treenode>
-				<treenode node="is_loaded;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f8;171;2;174;;;;vpos;;vstring;;r&#xA;Description&#xA;     Is Loaded&#xA;&#xA;Parameters:&#xA;    string $class - Class name to check for&#xA;&#xA;Return:&#xA;   |bool	Class object name if loaded or FALSE;;d1,172;;b1,0;;mstring $class;;p">
+				<treenode node="is_loaded;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f8;171;2;174;;;;vpos;;vstring;;r&#xA;Description&#xA;     Is Loaded&#xA;&#xA;Parameters:&#xA;    string $class - Class name to check for&#xA;&#xA;Return:&#xA;   |bool Class object name if loaded or FALSE;;d1,172;;b1,0;;mstring $class;;p">
 					<treenode node="class;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Loader.php;f27;171;33;171;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -6628,7 +6630,7 @@
 					<treenode node="output;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Output.php;f26;404;33;404;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="_display_cache;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Output.php;f8;641;2;702;;;;vpos;;vbool;;r&#xA;Description&#xA;     Update/serve cached output&#xA;&#xA;Parameters:&#xA;    object - &amp;$CFG	CI_Config class instance&#xA;    object - &amp;$URI	CI_URI class instance&#xA;&#xA;Return:&#xA;   TRUE on success or FALSE on failure;;d1,642;;b1,0;;mobject;;pobject;;p">
+				<treenode node="_display_cache;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\core\Output.php;f8;641;2;702;;;;vpos;;vbool;;r&#xA;Description&#xA;     Update/serve cached output&#xA;&#xA;Parameters:&#xA;    object - &amp;$CFG CI_Config class instance&#xA;    object - &amp;$URI CI_URI class instance&#xA;&#xA;Return:&#xA;   TRUE on success or FALSE on failure;;d1,642;;b1,0;;mobject;;pobject;;p">
 					<treenode node="CFG;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Output.php;f33;641;37;641;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="URI;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\core\Output.php;f40;641;44;641;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -7080,7 +7082,7 @@
 					<treenode node="driver;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Session\Session.php;f37;187;44;187;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="_configure;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Session\Session.php;f11;259;2;318;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Configuration&#xA;&#xA;Parameters:&#xA;    array - &amp;$params	Input parameters;;d1,260;;b2,0;;marray;;p">
+				<treenode node="_configure;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Session\Session.php;f11;259;2;318;;;;vpos;;vvoid;;r&#xA;Description&#xA;     Configuration&#xA;&#xA;Parameters:&#xA;    array - &amp;$params Input parameters;;d1,260;;b2,0;;marray;;p">
 					<treenode node="params;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\libraries\Session\Session.php;f32;259;39;259;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
@@ -8529,7 +8531,7 @@
 				<treenode node="type;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\url_helper.php;f26;392;31;392;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="auto_typography;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\typography_helper.php;f1;78;2;83;;;;vpos;;vstring;;r&#xA;Description&#xA;     Auto Typography Wrapper Function&#xA;&#xA;Parameters:&#xA;    string $str&#xA;    bool $reduce_linebreaks - = FALSE	whether to reduce multiple instances of double newlines to two;;d1,79;;b0,0;;mstring $str;;pbool $reduce_linebreaks;;p">
+			<treenode node="auto_typography;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\typography_helper.php;f1;78;2;83;;;;vpos;;vstring;;r&#xA;Description&#xA;     Auto Typography Wrapper Function&#xA;&#xA;Parameters:&#xA;    string $str&#xA;    bool $reduce_linebreaks - = FALSE whether to reduce multiple instances of double newlines to two;;d1,79;;b0,0;;mstring $str;;pbool $reduce_linebreaks;;p">
 				<treenode node="reduce_linebreaks;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\typography_helper.php;f32;78;50;78;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="str;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\typography_helper.php;f26;78;30;78;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -8583,7 +8585,7 @@
 			</treenode>
 			<treenode node="current_url;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\url_helper.php;f1;102;2;106;;;;vpos;;vstring;;r&#xA;Description&#xA;     Current URL;;d1,103;;b0,0;;m">
 			</treenode>
-			<treenode node="date_range;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\date_helper.php;f1;685;2;794;;;;vpos;;varray;;r&#xA;Description&#xA;     Date range&#xA;&#xA;Parameters:&#xA;    int - unix_start	UNIX timestamp of period start date&#xA;    int - unix_end|days	UNIX timestamp of period end date&#xA;    mixed - is_unix		Specifies whether the second parameter&#xA;    string - date_format	Output date format, same as in date();;d1,686;;b0,0;;mint;;pint;;pmixed;;pstring;;p">
+			<treenode node="date_range;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\date_helper.php;f1;685;2;794;;;;vpos;;varray;;r&#xA;Description&#xA;     Date range&#xA;&#xA;Parameters:&#xA;    int - unix_start UNIX timestamp of period start date&#xA;    int - unix_end|days UNIX timestamp of period end date&#xA;    mixed - is_unix  Specifies whether the second parameter&#xA;    string - date_format Output date format, same as in date();;d1,686;;b0,0;;mint;;pint;;pmixed;;pstring;;p">
 				<treenode node="format;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\date_helper.php;f69;685;76;685;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="is_unix;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\date_helper.php;f52;685;60;685;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -8639,7 +8641,7 @@
 				<treenode node="type;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\security_helper.php;f24;95;29;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="doctype;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\html_helper.php;f1;231;2;257;;;;vpos;;vstring;;r&#xA;Description&#xA;     Doctype&#xA;&#xA;Parameters:&#xA;    string - type	The doctype to be generated;;d1,232;;b0,0;;mstring;;p">
+			<treenode node="doctype;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\html_helper.php;f1;231;2;257;;;;vpos;;vstring;;r&#xA;Description&#xA;     Doctype&#xA;&#xA;Parameters:&#xA;    string - type The doctype to be generated;;d1,232;;b0,0;;mstring;;p">
 				<treenode node="type;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\html_helper.php;f18;231;23;231;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
@@ -8801,7 +8803,7 @@
 				<treenode node="value;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\form_helper.php;f36;228;42;228;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="form_prep;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\form_helper.php;f1;659;2;662;;;;vpos;;vstring;;r&#xA;Description&#xA;     Form Prep&#xA;&#xA;Parameters:&#xA;    string|string[] $str - Value to escape&#xA;&#xA;Return:&#xA;   |string[]	Escaped values;;d1,660;;b0,0;;mstring|string[] $str;;p">
+			<treenode node="form_prep;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\form_helper.php;f1;659;2;662;;;;vpos;;vstring;;r&#xA;Description&#xA;     Form Prep&#xA;&#xA;Parameters:&#xA;    string|string[] $str - Value to escape&#xA;&#xA;Return:&#xA;   |string[] Escaped values;;d1,660;;b0,0;;mstring|string[] $str;;p">
 				<treenode node="str;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\form_helper.php;f20;659;24;659;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
@@ -9357,7 +9359,7 @@
 				<treenode node="inline;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\smiley_helper.php;f49;65;56;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="standard_date;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\date_helper.php;f1;145;2;159;;;;vpos;;vstring;;r&#xA;Description&#xA;     Standard Date&#xA;&#xA;Parameters:&#xA;    string $fmt - = 'DATE_RFC822'	the chosen format&#xA;    int $time - = NULL		Unix timestamp;;d1,146;;b0,0;;mstring $fmt;;pint $time;;p">
+			<treenode node="standard_date;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\date_helper.php;f1;145;2;159;;;;vpos;;vstring;;r&#xA;Description&#xA;     Standard Date&#xA;&#xA;Parameters:&#xA;    string $fmt - = 'DATE_RFC822' the chosen format&#xA;    int $time - = NULL  Unix timestamp;;d1,146;;b0,0;;mstring $fmt;;pint $time;;p">
 				<treenode node="fmt;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\date_helper.php;f24;145;28;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="time;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\date_helper.php;f46;145;51;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -9459,7 +9461,7 @@
 				<treenode node="str;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\text_helper.php;f23;63;27;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="word_wrap;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\text_helper.php;f1;426;2;505;;;;vpos;;vstring;;r&#xA;Description&#xA;     Word Wrap&#xA;&#xA;Parameters:&#xA;    string $str - the text string&#xA;    int $charlim - = 76	the number of characters to wrap at;;d1,427;;b0,0;;mstring $str;;pint $charlim;;p">
+			<treenode node="word_wrap;PHP:Function Name;C:\xampp\htdocs\hiddenparadise\system\helpers\text_helper.php;f1;426;2;505;;;;vpos;;vstring;;r&#xA;Description&#xA;     Word Wrap&#xA;&#xA;Parameters:&#xA;    string $str - the text string&#xA;    int $charlim - = 76 the number of characters to wrap at;;d1,427;;b0,0;;mstring $str;;pint $charlim;;p">
 				<treenode node="charlim;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\text_helper.php;f26;426;34;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="str;PHP:Var Name;C:\xampp\htdocs\hiddenparadise\system\helpers\text_helper.php;f20;426;24;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -15783,7 +15785,7 @@
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="revapi;JS:JS Var Name;C:\xampp\htdocs\hiddenparadise\application\views\hidden_default.php;f7;501;13;501;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="revapi;JS:JS Var Name;C:\xampp\htdocs\hiddenparadise\application\views\hidden_default.php;f7;717;13;717;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="s;JS:JS Var Name;C:\xampp\htdocs\hiddenparadise\scripts\jquery.themepunch.plugins.min.js;f77;27;78;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -15930,49 +15932,49 @@
 	</yiidata>
 	<todoblock>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\core\Loader.php">
-			<todo name="todo	Figure out a way to move this to the constructor" pos="5;148"/>
+			<todo name="todo Figure out a way to move this to the constructor" pos="5;148"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\core\Output.php">
-			<todo name="todo	We need to figure out how to permit headers to be cached." pos="5;200"/>
+			<todo name="todo We need to figure out how to permit headers to be cached." pos="5;200"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\database\DB_forge.php">
-			<todo name="todo	Remove deprecated $_after option in 3.1+" pos="5;556"/>
+			<todo name="todo Remove deprecated $_after option in 3.1+" pos="5;556"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\database\DB_query_builder.php">
 			<todo name="@todo error" pos="4;1932"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\database\drivers\mysqli\mysqli_driver.php">
-			<todo name="todo	SSL support" pos="5;104"/>
+			<todo name="todo SSL support" pos="5;104"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\database\drivers\pdo\subdrivers\pdo_mysql_driver.php">
-			<todo name="todo	SSL support" pos="5;121"/>
+			<todo name="todo SSL support" pos="5;121"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\database\drivers\sqlite3\sqlite3_driver.php">
-			<todo name="todo	Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
+			<todo name="todo Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\database\drivers\sqlite3\sqlite3_forge.php">
-			<todo name="todo	implement drop_column(), modify_column()" pos="5;134"/>
+			<todo name="todo implement drop_column(), modify_column()" pos="5;134"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\database\drivers\sqlite\sqlite_forge.php">
-			<todo name="todo	implement drop_column(), modify_column()" pos="5;115"/>
+			<todo name="todo implement drop_column(), modify_column()" pos="5;115"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\helpers\date_helper.php">
-			<todo name="todo	Remove in version 3.1+." pos="5;134"/>
+			<todo name="todo Remove in version 3.1+." pos="5;134"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\helpers\file_helper.php">
-			<todo name="todo	Remove in version 3.1+." pos="5;58"/>
+			<todo name="todo Remove in version 3.1+." pos="5;58"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\helpers\security_helper.php">
-			<todo name="todo	Remove in version 3.1+." pos="5;89"/>
+			<todo name="todo Remove in version 3.1+." pos="5;89"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\helpers\string_helper.php">
-			<todo name="todo	Remove in version 3.1+." pos="5;64"/>
+			<todo name="todo Remove in version 3.1+." pos="5;64"/>
 			<todo name="todo: remove in 3.1+" pos="19;231"/>
 			<todo name="todo: remove in 3.1+" pos="20;234"/>
-			<todo name="todo	Remove in version 3.1+." pos="5;293"/>
+			<todo name="todo Remove in version 3.1+." pos="5;293"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\helpers\url_helper.php">
-			<todo name="todo	Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
+			<todo name="todo Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
 		</todofile>
 		<todofile name="C:\xampp\htdocs\hiddenparadise\system\libraries\Xmlrpc.php">
 			<todo name="@todo - this needs to be made more general purpose" pos="6;1554"/>
@@ -16153,8 +16155,8 @@
 		<file name="C:\xampp\htdocs\hiddenparadise\system\core\Benchmark.php" crc="-1718482875"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\system\.htaccess" crc="1260582150"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\styles\style.css" crc="-1618924058"/>
-		<file name="C:\xampp\htdocs\hiddenparadise\styles\settings.css" crc="1973808988"/>
-		<file name="C:\xampp\htdocs\hiddenparadise\styles\hiddencustom.css" crc="349303817"/>
+		<file name="C:\xampp\htdocs\hiddenparadise\styles\settings.css" crc="-1381400338"/>
+		<file name="C:\xampp\htdocs\hiddenparadise\styles\hiddencustom.css" crc="2042069181"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\styles\font-awesome.css" crc="-1297666877"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\styles\bootstrap.min.css" crc="-1142170796"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\scripts\jquery.themepunch.revolution.min.js" crc="-1077614091"/>
@@ -16170,7 +16172,7 @@
 		<file name="C:\xampp\htdocs\hiddenparadise\application\views\errors\cli\error_exception.php" crc="913410355"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\application\views\errors\cli\error_db.php" crc="-635194338"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\application\views\errors\cli\error_404.php" crc="1323700698"/>
-		<file name="C:\xampp\htdocs\hiddenparadise\application\views\hidden_default.php" crc="-207578017"/>
+		<file name="C:\xampp\htdocs\hiddenparadise\application\views\hidden_default.php" crc="-1880559476"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\application\controllers\Welcome.php" crc="1556805345"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\application\controllers\Hidden.php" crc="-1552593405"/>
 		<file name="C:\xampp\htdocs\hiddenparadise\application\config\user_agents.php" crc="1714926768"/>
