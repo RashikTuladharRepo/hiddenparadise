@@ -9,7 +9,7 @@ class Hidden extends CI_Controller{
 
 	public function loginPanel()
 	{
-		$this->load->view('hidden_default');
+		$this->load->view('login_panel');
 	}
 
 	public function adminPanel()
